@@ -1,32 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/bash
-echo "
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-"
-clear
-echo "      _____     __  __ __________ _  _"
-echo "     |_   _|   |  \/  |___ /_   _| || |"
-echo "       | |_____| |\/| | |_ \ | | | || |_" 
-echo "       | |_____| |  | |___) || | |__   _|"
-echo "       |_|     |_|  |_|____/ |_|    |_| "
-echo "
-"
-echo "       -{ Termux - Metaslpoit  } "
-echo "       -{ Coded by V3rluchie   } "
+echo "       -{ Metasploit  } "
+echo "       -{Sandeep Tech   } "
 echo ""
 echo ""
 echo "Using And Installing This Tools That Mean You Ready For"
@@ -80,17 +54,4 @@ $PREFIX/bin/find -type f -executable -exec termux-fix-shebang \{\} \;
 rm ./modules/auxiliary/gather/http_pdf_authors.rb
 ln -s $HOME/metasploit-framework/msfconsole /data/data/com.termux/files/usr/bin/
 
-
-echo "Thanx  To  Yukinoshita"
-echo ""
-echo "For your support"
-echo "And For Team "
-echo " Blood Tears No Team Squad "
-echo "
-
-"
-echo " contact me : verluchie[at]hackermail.com "
-echo "
-
-"
 echo " NOW YOU CAN LAUNCH METASPLOIT BY JUST EXECUTE THE COMMAND :=> msfconsole"
